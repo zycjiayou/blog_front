@@ -1,0 +1,29 @@
+{
+  "name": "blog_front",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zycjiayou/blog_front.git"
+  },
+  "author": "zyc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zycjiayou/blog_front/issues"
+  },
+  "homepage": "https://github.com/zycjiayou/blog_front#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
